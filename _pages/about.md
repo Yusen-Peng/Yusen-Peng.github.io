@@ -15,6 +15,7 @@ During my time at OSU, I have maintained **4.00**/4.00 cumulative GPA and comple
 
 More importantly, I am graduating with **Honors Research Distinction**, where I am investigating skeleton-based human action recognition as my undergraduate thesis. I was also awarded with Undergraduate Research Scholarship based on the thesis proposal in June 2025.
 
+Outside of AI research, I often play basketball🏀, piano🎹, and guitar🎸! I enjoy K-pop too: NewJeans, Le Sserafim, and Illit are my favorites - but Hanni is my ultimate bias.
 
 Research Interest 🧠
 ======
@@ -78,6 +79,12 @@ This section highlights my collaborative research projects conducted under the s
   * Tested **15**/32 clustering models with 20 UCR datasets per model and verified their test results
   * Refactored **25**/94 forecasting neural network models with careful hyperparameter tuning
   * Composed a paper of 5 pages with a comprehensive comparison against other existing SoTA libraries
+
+* NASA Airport Throughput Prediction Challenge 2024
+  * Mentor: Fan Yang; October 2024 - December 2024
+  * Collaborated on designing and implementing a pipeline to predict the number of flight arrivals
+  * Spearheaded data cleaning, feature extraction (flight + time), and model selection (cross-validation)
+  * Boosted the accuracy score from 48.7% to 78.7% and ranked 9th out of 51 teams
 
   
 Teaching 🧑🏻‍🏫
