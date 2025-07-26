@@ -1,0 +1,395 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot, % set margins without considering header and footer
+    top=2 cm, % seperation between body and page edge from the top
+    bottom=2 cm, % seperation between body and page edge from the bottom
+    left=2 cm, % seperation between body and page edge from the left
+    right=2 cm, % seperation between body and page edge from the right
+    footskip=1.0 cm, % seperation between body and footer
+    % showframe % for debugging 
+]{geometry} % for adjusting page geometry
+\usepackage{titlesec} % for customizing section titles
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+\usepackage[dvipsnames]{xcolor} % for coloring text
+\definecolor{primaryColor}{RGB}{0, 79, 144} % define primary color
+\usepackage{enumitem} % for customizing lists
+\usepackage{fontawesome5} % for using icons
+\usepackage{amsmath} % for math
+\usepackage[
+    pdftitle={Yusen Peng's CV},
+    pdfauthor={Yusen Peng},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref} % for links, metadata and bookmarks
+\usepackage[pscoord]{eso-pic} % for floating text on the page
+\usepackage{calc} % for calculating lengths
+\usepackage{bookmark} % for bookmarks
+\usepackage{lastpage} % for getting the total number of pages
+\usepackage{changepage} % for one column entries (adjustwidth environment)
+\usepackage{paracol} % for two and three column entries
+\usepackage{ifthen} % for conditional statements
+\usepackage{needspace} % for avoiding page brake right after the section title
+\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
+\usepackage{pifont}
+
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    % \usepackage[T1]{fontenc} % this breaks sb2nov
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+
+
+% Some settings:
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
+\pagestyle{empty} % no header or footer
+\setcounter{secnumdepth}{0} % no section numbering
+\setlength{\parindent}{0pt} % no indentation
+\setlength{\topskip}{0pt} % no top skip
+\setlength{\columnsep}{0cm} % set column seperation
+\makeatletter
+\let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
+\makeatother
+\pagestyle{customFooterStyle}
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{
+    % left space:
+    -1pt
+}{
+    % top space:
+    0.3 cm
+}{
+    % bottom space:
+    0.2 cm
+} % section title spacing
+
+\renewcommand\labelitemi{$\circ$} % custom bullet points
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0.4 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights for bullet entries
+
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{
+        0.2 cm + 0.00001 cm
+    }{
+        0.2 cm + 0.00001 cm
+    }
+}{
+    \end{adjustwidth}
+} % new environment for one column entries
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+    \par\kern\topsep
+} % new environment for the header
+
+\newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
+  \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+    \put(
+        \LenToUnit{\paperwidth-2 cm-0.2 cm+0.05cm},
+        \LenToUnit{\paperheight-1.0 cm}
+    ){\vtop{{\null}\makebox[0pt][c]{
+    }}}%
+  }%
+}%
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% new command for external links:
+\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
+
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{}
+
+    \placelastupdatedtext
+    \begin{header}
+        \textbf{\fontsize{24 pt}{24 pt}\selectfont Yusen Peng}
+        
+        \normalsize
+        \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}364 W Lane Ave, Columbus, OH, 43201}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{peng.1007@buckeyemail.osu.edu}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}peng.1007@buckeyemail.osu.edu}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{tel:3809001923}{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}380-900-1923}}%
+        \kern 0.25 cm%
+        
+\end{header}
+    \section{Education}
+        \begin{twocolentry}{
+        \textit{August 2022 – May 2026}}
+            \textbf{The Ohio State University} \\
+            \textit{B.S. in Computer Science and Engineering with Artificial Intelligence Specialization \\ graduating with Honors Research Distinction}
+        \end{twocolentry}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Undergraduate Research Scholarship 2025: awarded based on Honors Thesis proposal
+                \item AI Coursework: Natural Language Processing, Computer Vision, Machine Learning, Data Mining
+                \item GPA: \textbf{4.00}/4.00; Summa Cum Laude expected
+            \end{highlights}
+        \end{onecolentry}
+    \section{Research Interest}
+    \begin{onecolentry}{My primary research interests lie in \textbf{\textcolor{red}{vision-language models}}. I always investigate different approaches to designing such models with the emphasis on the following three aspects:
+    \begin{enumerate}
+        \item \textbf{Capability}: design robust, generalizable vision-language models that are data-adaptive and task-versatile
+        \item \textbf{Efficiency}:  engineer computational efficient vision-language models with good performance tradeoffs
+        \item \textbf{Interpretability}: develop transparent vision-language models that explain their decision-making process
+    \end{enumerate}
+     }
+    \end{onecolentry}
+        \section{Ongoing Research}
+    \begin{onecolentry}{ 
+        \textbf{DRIP: Dynamic token Reduction vIsion transformer via Pooling for efficient multimodal learning\\}
+        Advisor: Dr. Sachin Kumar $|$ May 2025 - Present; \href{https://docs.google.com/presentation/d/1BNgiq4Rxc6-d5mUFQ8P_1D-PnK2Qu6pP7BACOr9e_nE/edit?usp=sharing}{Lab summer Presentation}; \href{https://github.com/Yusen-Peng/DTP-ViT}{GitHub}}
+        \end{onecolentry}
+        \begin{onecolentry}
+            \begin{highlights} 
+                \item Develop DRIP, an efficient vision transformer powered by dynamic image token pooling techniques
+                \item Pretrain DRIP under Open-CLIP framework and report both zero-shot performance and GFLOPs
+                \item Finetune pretrained DRIP on both ImageNet Classification and LLaVA visual instruction tuning
+                \item investigate different strategies in developing data-adaptive boundary rates for dynamic token pooling
+            \end{highlights}
+    \end{onecolentry}
+    \section{Publications}
+        \begin{onecolentry}{
+        \textbf{CascadeFormer: Two-stage Cascading Transformer for Human Action Recognition}
+        }\\
+        \textbf{Yusen Peng}, Alper Yilmaz. \\
+        \textit{Under review at \textcolor{red}{AAAI 2026 Main Technical Track}.} \href{https://github.com/Yusen-Peng/CascadeFormer/tree/main/papers}{Paper + Supplementary Material}; \href{https://github.com/Yusen-Peng/CascadeFormer}{GitHub}
+        \end{onecolentry}
+        \begin{onecolentry}
+            \begin{highlights} 
+                \item Developed CascadeFormer, a two-stage cascading transformer for skeleton-based action recognition
+                \item Achieved competitive results on Penn Action, N-UCLA, and NTU RGB+D 60 without graph structures
+                \item Conducted extensive ablation studies on architecture design and pretraining/finetuning strategies
+                \item Open-sourced all code and model checkpoints to promote reproducibility and community adoption
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2cm}
+    \begin{onecolentry} 
+        \textbf{CE-Bench: A Contrastive Evaluation Benchmark of Interpretability with Sparse Autoencoders\\}
+        Alex Gulko*, \textbf{Yusen Peng*}, Sachin Kumar. \\
+        \textit{{Under review at \textcolor{red}{NeurIPS 2025 Mechanistic Interpretability Workshop}.}} \href{https://github.com/Yusen-Peng/CE-Bench/blob/main/papers/CE_Bench__NeurIPS_workshop_.pdf}{Paper with Appendix}; \href{https://github.com/Yusen-Peng/CE-Bench}{GitHub}
+            \begin{highlights} 
+                \item Co-developed a contrastive, LLM-free interpretability benchmark of sparse autoencoders  
+                \item Assisted in designing evaluation metrics that consider both contrastive and independent activations   
+                \item Helped with dataset curation and human evaluation of story subjects scraped from the WikiData
+                \item Directed extensive experiment design and detailed analysis with comprehensive ablation studies
+            \end{highlights} 
+        \end{onecolentry}
+        \vspace{0.2cm}
+        \begin{onecolentry}{
+        \textbf{Lower-quality public housing corresponds to elevated flood risk and social disadvantage} \\
+        Woi Sok Oh, Kelsea Best, Meri Davlasheridze, \textbf{Yusen Peng}. \\
+        \textit{Under review at Earth’s Future (a transdisciplinary journal).} \href{https://docs.google.com/document/d/1xQ40GUl8wWLM5I9q8T6M7Y-kDxelpi6-lIUt2vzz3KQ/edit?usp=sharing}{Paper}
+        }
+    \end{onecolentry}
+    \vspace{0.10 cm}        
+    \begin{onecolentry}{
+            \begin{highlights}
+                \item Collaborated in analyzing public housing and flooding datasets advised by Dr. Kelsea Best
+                \item Assisted in
+                detailed data analysis with correlation visualization and regression model tuning
+            \end{highlights}
+        }
+    \end{onecolentry}
+    \section{Campus Poster Presentations}
+    \begin{onecolentry}{
+        \textbf{SIGNAL: A Comprehensive Time Series Analysis Library}\\ 
+        The DATUM Lab $|$ Advisor: Dr. John Paparrizos; \href{https://drive.google.com/file/d/1WV9PNwhTVWQE94SSKilK8oGx4dYKENP-/view?usp=sharing}{Poster Scan}}
+            \begin{highlights}
+                \item Adapted and integrated sklearn/PyTorch implementation for \textbf{15}/57 time series classification algorithms
+                \item Adapted and integrated sklearn/PyTorch implementation for \textbf{11}/32 time series clustering algorithms
+                \item Tested \textbf{33}/57 classifiers with $20$ UCR datasets per classifier and verified their test results
+                \item Tested \textbf{15}/32 clustering models with 20 UCR datasets per model and verified their test results
+                \item Refactored  \textbf{27}/94 time series forecasting neural network models with careful hyperparameter tuning
+                \item Presented the project at the \underline{\href{https://cse.osu.edu/news/2025/02/showcasing-student-research-2025-cse-grad-research-expo}{CSE Annual Research Expo 2025}} at The Ohio State University
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.1cm}
+        \begin{onecolentry}{
+            \textbf{A Comparison of CSV, HDF5, Zarr, and netCDF4 in Performing Common I/O Operations} \\
+            Advisor: Dr. Suren Byna; \href{https://drive.google.com/file/d/1Q3U9HihDamZp9HKgECZaG2mGMs0BFeRe/view}{Poster Scan}; \href{https://github.com/Yusen-Peng/File-IO-Benchmark}{GitHub}}
+        \end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Developed benchmarks to compare file I/O performance of 4 data formats advised by Dr. Suren Byna
+                \item Processed and visualized timing data with CSV files and plots using Python, pandas, NumPy, matplotlib
+                \item Designed 20 large-scale test cases and collaborated in composing a technical report of 13 pages
+                \item Presented the project at the \underline{\href{https://cse.osu.edu/news/2024/02/2024-graduate-student-visit-day-poster-exhibition}{CSE Annual Research Expo 2024}} at The Ohio State University
+            \end{highlights}
+        \end{onecolentry}
+    \section{AI/ML Competitions}
+            \begin{onecolentry}{
+            \textbf{NASA Airport Throughput Prediction Challenge 2024\\}
+            The DATUM Lab $|$ October 2024 - December 2024; \href{https://bitgrit.net/competition/23}{Leaderboard}
+        }
+        \end{onecolentry}
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Collaborated on designing and implementing a pipeline to predict the number of flight arrivals
+                \item Led data cleaning,  feature extraction (flight + time), and model selection (cross-validation)
+                \item Boosted the accuracy score to \underline{78.7\%} and ranked \textbf{9th} out of 51 teams in the final/private leaderboard
+            \end{highlights}
+        \end{onecolentry}
+    
+    \section{Teaching}
+    \begin{twocolentry}{
+        \textit{Aug 2024 – Present}}
+        \textbf{Teaching Assistant for CSE 2331: Data Structures and Algorithms}
+        \end{twocolentry}
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Help students with complexity analysis, data structures, and graph algorithms in class
+                \item Hold office hours and bi-weekly review sessions to offer additional academic support 
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.1 cm}
+        \begin{twocolentry}{
+        \textit{Aug 2023 – Dec 2023}}
+            \textbf{Teaching Assistant for CSE 2221: Software Components}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Helped students with fundamental programming knowledge and data structure practice in Java 
+            \end{highlights}
+        \end{onecolentry}
+
+    \section{Internships}
+        \begin{twocolentry}{
+        \textit{San Dimas, CA (remote)}    
+            
+        \textit{May 2025 – Present}}
+            \textbf{Software Engineer Intern $|$ Next.js}
+            
+            \textit{Thaddeus Resource Center}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Develop, test, and maintain well-functioning, responsive, and updated Thaddeus websites
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.1 cm}
+        \begin{twocolentry}{
+        \textit{Boise, ID (remote)}    
+            
+        \textit{Jan 2025 – Apr 2025}}
+            \textbf{Software Engineer Intern \(|\) Microsoft Azure}
+            
+            \textit{Y STEM and Chess Inc}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Collaborated on renewing security certificates and deploying code base using Microsoft Azure
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.1 cm}
+        \begin{twocolentry}{
+        \textit{Gloucester, MA (remote)}    
+            
+        \textit{May 2024 – Sept 2024}}
+            \textbf{Website Frontend Intern \(|\) HTML, CSS, WordPress}
+            
+            \textit{National STEM Honor Society}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Collaborated in developing, improving, testing, and maintaining the National STEM official websites
+                % \item Accomplished $28$ tasks of fixing front-end bugs and creating responsive web pages
+            \end{highlights}
+        \end{onecolentry}
+
+        \vspace{0.1 cm}
+
+        \begin{twocolentry}{
+        \textit{Tampa, FL (remote)}  
+        \textit{Dec 2023 – Aug 2024}}
+            \textbf{Mobile Frontend Intern \(|\) HTML, CSS, JavaScript, React Native}
+            
+            \textit{Resilience, Inc}
+        \end{twocolentry}
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Collaborated in developing and testing a mobile app called AIMEE with tools to learn emotional intelligence
+                % \item Accomplished $51$ tasks of fixing front-end bugs and implementing new mobile features
+            \end{highlights}
+        \end{onecolentry}
+        \section{Extra-curriculars}
+
+        \begin{twocolentry}{
+        \textit{Feb 2023 – Feb 2025}}
+            \textbf{Competitive Programming Club (CPC) @ The Ohio State University}
+        \end{twocolentry}
+        \vspace{0.1cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Coordinated with other club officers and helped out with weekly presentations
+                \item Developed, tested, and reviewed coding problems for on-campus programming competitions
+            \end{highlights} 
+        \end{onecolentry}
+\end{document}
