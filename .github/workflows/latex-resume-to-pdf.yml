@@ -14,7 +14,7 @@ jobs:
           mkdir dist
           docker run --rm -v `pwd`:/data tianon/latex pdflatex -output-directory dist -interaction errorstopmode -halt-on-error resume.tex
       - name: Upload PDF Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: resume-pdf
           path: dist/resume.pdf
