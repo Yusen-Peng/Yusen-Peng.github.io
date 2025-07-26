@@ -125,3 +125,6 @@ Extra-curriculars 🔮
   * Served as 2023-2024 **Problem Engineer** and **Communication Director**
   * Coordinated with other club officers and helped out with weekly presentations
   * Developed, tested, and reviewed coding problems for on-campus programming competitions
+
+
+<a href="/resume.pdf" target="_blank">Download My Resume</a>
