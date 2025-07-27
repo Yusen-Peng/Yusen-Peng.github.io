@@ -37,7 +37,7 @@ Publications 🚀
 
 * **CE-Bench: A Contrastive Evaluation Benchmark of Interpretability with Sparse Autoencoders**
   * Alex Gulko\*, **Yusen Peng\***, Sachin Kumar. [GitHub](https://github.com/Yusen-Peng/CE-Bench)
-  * Under review at NeurIPS 2025 Mechanistic Interpretability Workshop. [Paper with Appendix](https://github.com/Yusen-Peng/CE-Bench/blob/main/papers/CE_Bench__NeurIPS_workshop_.pdf)
+  * Under review at EMNLP 2025 BlackboxNLP Workshop. [Paper with Appendix](https://github.com/Yusen-Peng/CE-Bench/blob/main/papers/CE_Bench__BlackboxNLP_workshop_.pdf)
   
 * **Lower-quality public housing corresponds to elevated flood risk and social disadvantage**
   * Woi Sok Oh, Kelsea Best, Meri Davlasheridze, **Yusen Peng**.
@@ -64,23 +64,21 @@ AI/ML Competitions 🏅
 Teaching 🧑🏻‍🏫
 ======
 
-* Teaching Assistant for CSE 2331: **Data Structures and Algorithms**
-  * Aug 2024 – Present
+* Teaching Assistant for CSE 2331: **Data Structures and Algorithms** (Aug 2024 – Present)
 
-* Teaching Assistant for CSE 2221: **Software Components**
-  * Aug 2023 – Dec 2023
+* Teaching Assistant for CSE 2221: **Software Components** (Aug 2023 – Dec 2023)
 
 
 Internships 👨‍💻
 ======
 
-* Software Engineer Intern @ **Thaddeus Resource Center** \| May 2025 – Present
+* Software Engineer Intern @ **Thaddeus Resource Center** (May 2025 – Present)
 
-* Software Engineer Intern @ **Y STEM and Chess Inc** \| Jan 2025 – Apr 2025
+* Software Engineer Intern @ **Y STEM and Chess Inc** (Jan 2025 – Apr 2025)
 
-* Website Frontend Intern @ **National STEM Honor Society** \| May 2024 – Sept 2024
+* Website Frontend Intern @ **National STEM Honor Society** (May 2024 – Sept 2024)
 
-* Mobile Frontend Intern @ **Resilience, Inc** \| Dec 2023 – Aug 2024
+* Mobile Frontend Intern @ **Resilience, Inc** (Dec 2023 – Aug 2024)
 
 Extra-curriculars 🔮
 ======
