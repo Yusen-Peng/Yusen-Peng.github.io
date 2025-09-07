@@ -22,44 +22,56 @@ designing such models with the emphasis on the following three aspects:
 2. **Efficiency**: engineer computational efficient vision-language models with good performance tradeoffs
 3. **Interpretability**: develop transparent vision-language models that explain their decision-making process
 
-Ongoing Research ⭐️
-======
-
-* **DRIP: Dynamic token Reduction vIsion transformer via Pooling for efficient multimodal learning**
-  * Advisor: Dr. Sachin Kumar \| May 2025 - Present; [Lab summer Presentation](https://docs.google.com/presentation/d/1BNgiq4Rxc6-d5mUFQ8P_1D-PnK2Qu6pP7BACOr9e_nE/edit?usp=sharing) ; [GitHub](https://github.com/Yusen-Peng/DRIP)
-
 Publications 🚀
 ======
 
-* **CascadeFormer: Two-stage Cascading Transformer for Human Action Recognition**
-  * **Yusen Peng**, Alper Yilmaz. [GitHub](https://github.com/Yusen-Peng/CascadeFormer)
-  * Under review at AAAI 2026 Main Technical Track. [Paper + Supplementary Material](https://github.com/Yusen-Peng/CascadeFormer/tree/main/papers) 
+* **[CascadeFormer: Two-stage Cascading Transformer for Human Action Recognition](https://arxiv.org/abs/2509.00692)**
+  * **Yusen Peng**, Alper Yilmaz.
+  * Under review at AAAI 2026 Main Technical Track
 
-* **CE-Bench: A Contrastive Evaluation Benchmark of Interpretability with Sparse Autoencoders**
-  * Alex Gulko\*, **Yusen Peng\***, Sachin Kumar. [GitHub](https://github.com/Yusen-Peng/CE-Bench)
-  * Under review at EMNLP 2025 BlackboxNLP Workshop. [Paper with Appendix](https://github.com/Yusen-Peng/CE-Bench/blob/main/papers/CE_Bench__BlackboxNLP_workshop_.pdf)
+* **[CE-Bench: A Contrastive Evaluation Benchmark of Interpretability with Sparse Autoencoders](https://arxiv.org/abs/2509.00691)**
+  * Alex Gulko\*, **Yusen Peng\***, Sachin Kumar.
+  * Under review at EMNLP 2025 BlackboxNLP Workshop
   
-* **Lower-quality public housing corresponds to elevated flood risk and social disadvantage**
+* **[Lower-quality public housing corresponds to elevated flood risk and social disadvantage](https://docs.google.com/document/d/1xQ40GUl8wWLM5I9q8T6M7Y-kDxelpi6-lIUt2vzz3KQ/edit?usp=sharing)**
   * Woi Sok Oh, Kelsea Best, Meri Davlasheridze, **Yusen Peng**.
-  * Under review at Earth’s Future (a transdisciplinary journal). [Paper](https://docs.google.com/document/d/1xQ40GUl8wWLM5I9q8T6M7Y-kDxelpi6-lIUt2vzz3KQ/edit?usp=sharing)
+  * Under review at Earth’s Future
+
+Ongoing Projects ⭐️
+======
+
+* **[DRIP: Dynamic token Reduction vIsion transformer via Pooling for efficient multimodal learning](https://github.com/Yusen-Peng/DRIP)**
+  * Advisor: Dr. Sachin Kumar \| May 2025 - Present
   
+* **[SVD-VGGT: Efficient Visual Geometry Grounded Transformer via Singular Value Decomposition](https://github.com/Yusen-Peng/SVD-VGGT)**
+  * Mentor: Haoxuan Wang; Advisor: Dr. Yan Yan \| August 2025 - Present
+
+* **[CascadeFormer-based Agentic Anomaly Detection for Surveillance Purpose](https://github.com/Yusen-Peng/CascadeFormer-AD-Agent)**
+  * Advisor: Dr. Alper Yilmaz \| August 2025 - Present
+
+Academic Service 📚
+======
+
+* **Conference Reviewer** @ NeurIPS
+  * reviewed 3 papers at [NeurIPS 2025 Mechanistic Interpretability Workshop](https://mechinterpworkshop.com)
+
 Campus Poster Presentations 👨‍👨‍👦‍👦
 ======
 
 * **SIGNAL: A Comprehensive Time Series Analysis Library**
-  * The DATUM Lab \| Advisor: Dr. John Paparrizos; [Poster Scan](https://drive.google.com/file/d/1WV9PNwhTVWQE94SSKilK8oGx4dYKENP-/view?usp=sharing)
-  * Presented at the [CSE Annual Research Expo 2025]({https://cse.osu.edu/news/2025/02/showcasing-student-research-2025-cse-grad-research-expo) at The Ohio State University
+  * The DATUM Lab \| Advisor: Dr. John Paparrizos; 
+  * [Poster](https://drive.google.com/file/d/1WV9PNwhTVWQE94SSKilK8oGx4dYKENP-/view?usp=sharing) resented at the CSE Annual Research Expo 2025 at The Ohio State University
 
 * **A Comparison of CSV, HDF5, Zarr, and netCDF4 in Performing Common I/O Operations**
-  * Advisor: Dr. Suren Byna; [Poster Scan](https://drive.google.com/file/d/1Q3U9HihDamZp9HKgECZaG2mGMs0BFeRe/view) ; [GitHub](https://github.com/Yusen-Peng/File-IO-Benchmark)
-  * Presented at the [CSE Annual Research Expo 2024](https://cse.osu.edu/news/2024/02/2024-graduate-student-visit-day-poster-exhibition) at The Ohio State University
+  * Advisor: Dr. Suren Byna; [GitHub](https://github.com/Yusen-Peng/File-IO-Benchmark)
+  * [Poster](https://drive.google.com/file/d/1Q3U9HihDamZp9HKgECZaG2mGMs0BFeRe/view) presented at the CSE Annual Research Expo 2024 at The Ohio State University
 
 
 AI/ML Competitions 🏅
 ======
 
-* **NASA Airport Throughput Prediction Challenge 2024**
-  * The DATUM Lab \| Ranked **9th** out of **51 teams** in the final [Leaderboard](https://bitgrit.net/competition/23)
+* **NASA Airport Throughput Prediction Challenge 2024** (Top 10 Finalist)
+  * Ranked **9th** out of **51 teams** in the final [Leaderboard](https://bitgrit.net/competition/23)
 
 Teaching 🧑🏻‍🏫
 ======
