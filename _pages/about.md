@@ -43,7 +43,7 @@ Ongoing Projects ⭐️
 * **[DRIP: Dynamic token Reduction vIsion transformer via Pooling for efficient multimodal learning](https://github.com/Yusen-Peng/DRIP)**
   * Advisor: Dr. Sachin Kumar \| May 2025 - Present
   
-* **[SVD-VGGT: Efficient Visual Geometry Grounded Transformer via Singular Value Decomposition](https://github.com/Yusen-Peng/SVD-VGGT)**
+* **[SVD-π3: Efficient Visual Geometry Learning via Singular Value Decomposition](https://github.com/Yusen-Peng/SVD-Pi3)**
   * Mentor: Haoxuan Wang; Advisor: Dr. Yan Yan \| August 2025 - Present
 
 * **[CascadeFormer-based Agentic Anomaly Detection for Surveillance Purpose](https://github.com/Yusen-Peng/CascadeFormer-AD-Agent)**
