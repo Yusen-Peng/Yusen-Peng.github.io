@@ -25,29 +25,72 @@ designing such models with the emphasis on the following three aspects:
 Publications 🚀
 ======
 
-* **[CascadeFormer: Two-stage Cascading Transformer for Human Action Recognition](https://arxiv.org/abs/2509.00692)**
-  * **Yusen Peng**, Alper Yilmaz.
-  * Under review at AAAI 2026 Main Technical Track
+<div style="display:flex;align-items:center;margin-bottom:30px;">
+  <img src="../images/CascadeFormer.png" alt="CascadeFormer" style="width:350px;height:150px;margin-right:20px;">
+  <div class="paper-info">
+    <h3 style="margin-top:0;">CascadeFormer: A Family of Two-stage Cascading Transformers for Skeleton-based Human Action Recognition</h3>
+    <strong>Yusen Peng</strong>, Alper Yilmaz.<br>
+    <i>arXiv preprint</i>, 2025<br>
+    <a href="https://arxiv.org/abs/2509.00692" target="_blank">[Arxiv]</a> | 
+    <a href="https://github.com/Yusen-Peng/CascadeFormer" target="_blank">[Github]</a>
+  </div>
+</div>
 
-* **[CE-Bench: A Contrastive Evaluation Benchmark of Interpretability with Sparse Autoencoders](https://arxiv.org/abs/2509.00691)**
-  * Alex Gulko\*, **Yusen Peng\***, Sachin Kumar.
-  * Under review at EMNLP 2025 BlackboxNLP Workshop
-  
-* **[Lower-quality public housing corresponds to elevated flood risk and social disadvantage](https://docs.google.com/document/d/1xQ40GUl8wWLM5I9q8T6M7Y-kDxelpi6-lIUt2vzz3KQ/edit?usp=sharing)**
-  * Woi Sok Oh, Kelsea Best, Meri Davlasheridze, **Yusen Peng**.
-  * Under review at Earth’s Future
+
+<div style="display:flex;align-items:center;margin-bottom:30px;">
+  <img src="../images/CE-Bench.png" alt="CE-Bench" style="width:350px;height:150px;margin-right:20px;">
+  <div class="paper-info">
+    <h3 style="margin-top:0;">CE-Bench: A Contrastive Evaluation Benchmark of Interpretability with Sparse Autoencoders</h3>
+    Alex Gulko*, <strong>Yusen Peng*</strong>, Sachin Kumar.<br>
+    <i>arXiv preprint</i>, 2025<br>
+    <a href="https://arxiv.org/abs/2509.00691" target="_blank">[Arxiv]</a> | 
+    <a href="https://github.com/Yusen-Peng/CE-Bench" target="_blank">[Github]</a>
+  </div>
+</div>
+
+
+<div style="display:flex;align-items:center;margin-bottom:30px;">
+  <img src="../images/public_housing.png" alt="public_housing" style="width:350px;height:150px;margin-left:35px;margin-right:35px;">
+  <div class="paper-info">
+    <h3 style="margin-top:0;">Lower-quality public housing corresponds to elevated flood risk and social disadvantage</h3>
+    Woi Sok Oh, Kelsea Best, Meri Davlasheridze, <strong>Yusen Peng</strong><br>
+    <i>Under review at Earth’s Future</i>, 2025<br>
+    <a href="https://docs.google.com/document/d/1xQ40GUl8wWLM5I9q8T6M7Y-kDxelpi6-lIUt2vzz3KQ/edit?usp=sharing" target="_blank">[Paper]</a>
+  </div>
+</div>
+
 
 Ongoing Projects ⭐️
 ======
 
-* **[DRIP: Dynamic token Reduction vIsion transformer via Pooling for efficient multimodal learning](https://github.com/Yusen-Peng/DRIP)**
-  * Advisor: Dr. Sachin Kumar \| May 2025 - Present
-  
-* **[SVD-π3: Efficient Visual Geometry Learning via Singular Value Decomposition](https://github.com/Yusen-Peng/SVD-Pi3)**
-  * Mentor: Haoxuan Wang; Advisor: Dr. Yan Yan \| August 2025 - Present
+<div style="display:flex;align-items:center;margin-bottom:30px;">
+  <img src="../images/DRIP.png" alt="DRIP" style="width:350px;height:150px;margin-right:20px;">
+  <div class="paper-info">
+    <h3 style="margin-top:0;">DRIP: Dynamic token Reduction vIsion transformer via Pooling for efficient multimodal learning</h3>
+    Advisor: Dr. Sachin Kumar | May 2025 - Present<br> 
+    <a href="https://github.com/Yusen-Peng/DRIP" target="_blank">[Github]</a>
+  </div>
+</div>
 
-* **[CascadeFormer-based Agentic Anomaly Detection for Surveillance Purpose](https://github.com/Yusen-Peng/CascadeFormer-AD-Agent)**
-  * Advisor: Dr. Alper Yilmaz \| August 2025 - Present
+
+<div style="display:flex;align-items:center;margin-bottom:30px;">
+  <img src="../images/SVD-Pi3.png" alt="SVD-Pi3" style="width:350px;height:150px;margin-right:20px;">
+  <div class="paper-info">
+    <h3 style="margin-top:0;">SVD-π3: Efficient Visual Geometry Learning via Singular Value Decomposition</h3>
+    Mentor: Haoxuan Wang; Advisor: Dr. Yan Yan | August 2025 - Present<br> 
+    <a href="https://github.com/Yusen-Peng/SVD-Pi3" target="_blank">[Github]</a>
+  </div>
+</div>
+
+
+<div style="display:flex;align-items:center;margin-bottom:30px;">
+  <img src="../images/AD-Agent.png" alt="SVD-Pi3" style="width:350px;height:150px;margin-right:20px;">
+  <div class="paper-info">
+    <h3 style="margin-top:0;">CascadeFormer-based Agentic Anomaly Detection for Surveillance Purpose</h3>
+    Advisor: Dr. Alper Yilmaz | August 2025 - Present<br> 
+    <a href="https://github.com/Yusen-Peng/CascadeFormer-AD-Agent" target="_blank">[Github]</a>
+  </div>
+</div>
 
 Academic Service 📚
 ======
