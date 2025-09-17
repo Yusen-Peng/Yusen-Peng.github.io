@@ -26,25 +26,24 @@ Publications 🚀
 ======
 
 <div style="display:flex;align-items:center;margin-bottom:30px;">
-  <img src="../images/CascadeFormer.png" alt="CascadeFormer" style="width:350px;height:150px;margin-right:20px;">
-  <div class="paper-info">
-    <h3 style="margin-top:0;">CascadeFormer: A Family of Two-stage Cascading Transformers for Skeleton-based Human Action Recognition</h3>
-    <strong>Yusen Peng</strong>, Alper Yilmaz.<br>
-    <i>arXiv preprint</i>, 2025<br>
-    <a href="https://arxiv.org/abs/2509.00692" target="_blank">[Arxiv]</a> | 
-    <a href="https://github.com/Yusen-Peng/CascadeFormer" target="_blank">[Github]</a>
-  </div>
-</div>
-
-
-<div style="display:flex;align-items:center;margin-bottom:30px;">
   <img src="../images/CE-Bench.png" alt="CE-Bench" style="width:350px;height:150px;margin-right:20px;">
   <div class="paper-info">
     <h3 style="margin-top:0;">CE-Bench: A Contrastive Evaluation Benchmark of Interpretability with Sparse Autoencoders</h3>
     Alex Gulko*, <strong>Yusen Peng*</strong>, Sachin Kumar.<br>
-    <i>arXiv preprint</i>, 2025<br>
+    <i>EMNLP 2025 Workshop BlackboxNLP</i><br>
     <a href="https://arxiv.org/abs/2509.00691" target="_blank">[Arxiv]</a> | 
     <a href="https://github.com/Yusen-Peng/CE-Bench" target="_blank">[Github]</a>
+  </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:30px;">
+  <img src="../images/CascadeFormer.png" alt="CascadeFormer" style="width:350px;height:150px;margin-right:20px;">
+  <div class="paper-info">
+    <h3 style="margin-top:0;">CascadeFormer: A Family of Two-stage Cascading Transformers for Skeleton-based Human Action Recognition</h3>
+    <strong>Yusen Peng</strong>, Alper Yilmaz.<br>
+    <i>arXiv preprint</i>; also under review at ICLR 2026<br>
+    <a href="https://arxiv.org/abs/2509.00692" target="_blank">[Arxiv]</a> | 
+    <a href="https://github.com/Yusen-Peng/CascadeFormer" target="_blank">[Github]</a>
   </div>
 </div>
 
@@ -67,7 +66,7 @@ Ongoing Projects ⭐️
   <img src="../images/DRIP.png" alt="DRIP" style="width:350px;height:150px;margin-right:20px;">
   <div class="paper-info">
     <h3 style="margin-top:0;">DRIP: Dynamic token Reduction vIsion transformer via Pooling for efficient multimodal learning</h3>
-    Advisor: Dr. Sachin Kumar | May 2025 - Present<br> 
+    <strong>Yusen Peng</strong>, Sachin Kumar<br> 
     <a href="https://github.com/Yusen-Peng/DRIP" target="_blank">[Github]</a>
   </div>
 </div>
