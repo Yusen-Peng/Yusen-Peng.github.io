@@ -22,7 +22,7 @@ designing such models with the emphasis on the following three aspects:
 2. **Efficiency**: engineer computational efficient vision-language models with good performance tradeoffs
 3. **Interpretability**: develop transparent vision-language models that explain their decision-making process
 
-Publications 🚀
+Publications and Submissions 🚀
 ======
 
 <div style="display:flex;align-items:center;margin-bottom:30px;">
@@ -30,7 +30,7 @@ Publications 🚀
   <div class="paper-info">
     <h3 style="margin-top:0;">CE-Bench: A Contrastive Evaluation Benchmark of Interpretability with Sparse Autoencoders</h3>
     Alex Gulko*, <strong>Yusen Peng*</strong>, Sachin Kumar.<br>
-    <i>EMNLP 2025 Workshop BlackboxNLP</i><br>
+    <i>BlackboxNLP Workshop @ EMNLP, 2025</i><br>
     <a href="https://arxiv.org/abs/2509.00691" target="_blank">[Arxiv]</a> | 
     <a href="https://github.com/Yusen-Peng/CE-Bench" target="_blank">[Github]</a>
   </div>
@@ -41,12 +41,11 @@ Publications 🚀
   <div class="paper-info">
     <h3 style="margin-top:0;">CascadeFormer: A Family of Two-stage Cascading Transformers for Skeleton-based Human Action Recognition</h3>
     <strong>Yusen Peng</strong>, Alper Yilmaz.<br>
-    <i>arXiv preprint</i>; also under review at ICLR 2026<br>
+    <i>arXiv preprint 2025; also under review at ICLR 2026</i><br>
     <a href="https://arxiv.org/abs/2509.00692" target="_blank">[Arxiv]</a> | 
     <a href="https://github.com/Yusen-Peng/CascadeFormer" target="_blank">[Github]</a>
   </div>
 </div>
-
 
 <div style="display:flex;align-items:center;margin-bottom:30px;">
   <img src="../images/public_housing.png" alt="public_housing" style="width:350px;height:150px;margin-left:35px;margin-right:35px;">
@@ -58,36 +57,37 @@ Publications 🚀
   </div>
 </div>
 
-
-Ongoing Projects ⭐️
-======
-
 <div style="display:flex;align-items:center;margin-bottom:30px;">
   <img src="../images/DRIP.png" alt="DRIP" style="width:350px;height:150px;margin-right:20px;">
   <div class="paper-info">
     <h3 style="margin-top:0;">DRIP: Dynamic token Reduction vIsion transformer via Pooling for efficient multimodal learning</h3>
-    <strong>Yusen Peng</strong>, Sachin Kumar<br> 
+    <strong>Yusen Peng</strong>, Sachin Kumar<br>
+    <i>In preparation for CVPR 2026; stay tuned!</i><br>
     <a href="https://github.com/Yusen-Peng/DRIP" target="_blank">[Github]</a>
   </div>
 </div>
 
 
-<div style="display:flex;align-items:center;margin-bottom:30px;">
-  <img src="../images/SVD-Pi3.png" alt="SVD-Pi3" style="width:350px;height:150px;margin-right:20px;">
-  <div class="paper-info">
-    <h3 style="margin-top:0;">SVD-π3: Efficient Visual Geometry Learning via Singular Value Decomposition</h3>
-    Mentor: Haoxuan Wang; Advisor: Dr. Yan Yan | August 2025 - Present<br> 
-    <a href="https://github.com/Yusen-Peng/SVD-Pi3" target="_blank">[Github]</a>
-  </div>
-</div>
-
+Ongoing Projects ⭐️
+======
 
 <div style="display:flex;align-items:center;margin-bottom:30px;">
   <img src="../images/AD-Agent.png" alt="SVD-Pi3" style="width:350px;height:150px;margin-right:20px;">
   <div class="paper-info">
     <h3 style="margin-top:0;">CascadeFormer-based Agentic Anomaly Detection for Surveillance Purpose</h3>
-    Advisor: Dr. Alper Yilmaz | August 2025 - Present<br> 
+    Advisor: Dr. Alper Yilmaz<br> 
+    <i>Ongoing Honors Undergraduate Thesis</i><br>
+    <i>Oral Defense Expected in April 2026</i><br>
     <a href="https://github.com/Yusen-Peng/CascadeFormer-AD-Agent" target="_blank">[Github]</a>
+  </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:30px;">
+  <img src="../images/SVD-Pi3.png" alt="SVD-Pi3" style="width:350px;height:150px;margin-right:20px;">
+  <div class="paper-info">
+    <h3 style="margin-top:0;">SVD-π3: Efficient Visual Geometry Learning via Singular Value Decomposition</h3>
+    Mentor: Haoxuan Wang; Advisor: Dr. Yan Yan<br> 
+    <a href="https://github.com/Yusen-Peng/SVD-Pi3" target="_blank">[Github]</a>
   </div>
 </div>
 
