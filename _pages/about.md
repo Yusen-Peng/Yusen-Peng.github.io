@@ -77,18 +77,22 @@ Ongoing Projects ⭐️
 </div>
 
 
+Awards 🏅
+======
+
+* **Undergraduate Research Scholarship 2025**
+  * $2,200 scholarship awarded based on my Honors Thesis proposal @ OSU
+
+* **Department Nominee, CRA Outstanding Undergraduate Researcher Award (2025)**
+  * One of four students nominated by the Department of Computer Science and Engineering @ OSU
+
+
 Academic Service 📚
 ======
 
 * **Conference Reviewer** @ NeurIPS
   * reviewed 3 papers at [NeurIPS 2025 Mechanistic Interpretability Workshop](https://mechinterpworkshop.com)
 
-
-Awards 🏅
-======
-
-* **Undergraduate Research Scholarship 2025**
-  * awarded based on my Honors Thesis proposal
 
 Campus Poster Presentations 👨‍👨‍👦‍👦
 ======
