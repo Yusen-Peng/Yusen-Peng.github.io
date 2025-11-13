@@ -15,10 +15,11 @@ Publications 🚀
 <div style="display:flex;align-items:center;margin-bottom:30px;">
   <img src="../images/CE-Bench.png" alt="CE-Bench" style="width:350px;height:180px;margin-right:20px;">
   <div class="paper-info">
-    <h3 style="margin-top:0;">CE-Bench: A Contrastive Evaluation Benchmark of Interpretability with Sparse Autoencoders</h3>
+    <h3 style="margin-top:0;">CE-Bench: Towards a Reliable Contrastive Evaluation Benchmark of Interpretability of Sparse Autoencoders</h3>
     Alex Gulko*, <strong>Yusen Peng*</strong>, Sachin Kumar.<br>
-    <i>BlackboxNLP Workshop @ EMNLP, 2025</i><br>
+    <i>Proceedings of the 8th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP</i><br>
     <a href="https://arxiv.org/abs/2509.00691" target="_blank">[Arxiv]</a> | 
+    <a href="https://aclanthology.org/2025.blackboxnlp-1.1" target="_blank">[ACL Anthology]</a> |
     <a href="https://github.com/Yusen-Peng/CE-Bench" target="_blank">[Github]</a>
   </div>
 </div>
@@ -28,7 +29,7 @@ Publications 🚀
   <div class="paper-info">
     <h3 style="margin-top:0;">CascadeFormer: A Family of Two-stage Cascading Transformers for Skeleton-based Human Action Recognition</h3>
     <strong>Yusen Peng</strong>, Alper Yilmaz.<br>
-    <i>arXiv preprint 2025; also under review at ICLR 2026</i><br>
+    <i>arXiv preprint 2025</i><br>
     <a href="https://arxiv.org/abs/2509.00692" target="_blank">[Arxiv]</a> | 
     <a href="https://github.com/Yusen-Peng/CascadeFormer" target="_blank">[Github]</a>
   </div>
@@ -50,9 +51,18 @@ Ongoing Projects ⭐️
 <div style="display:flex;align-items:center;margin-bottom:30px;">
   <img src="../images/DRIP.png" alt="DRIP" style="width:350px;height:170px;margin-right:20px;">
   <div class="paper-info">
-    <h3 style="margin-top:0;">DRIP: Dynamic token Reduction vIsion transformer via Pooling for efficient multimodal learning</h3>
+    <h3 style="margin-top:0;">Dynamic Patch Pooling for Efficient Vision Transformers</h3>
     Advisor: Dr. Sachin Kumar<br>
     <a href="https://github.com/Yusen-Peng/DRIP" target="_blank">[Github]</a>
+  </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:30px;">
+  <img src="../images/CascadeFormer2.png" alt="SVD-Pi3" style="width:350px;height:150px;margin-right:20px;">
+  <div class="paper-info">
+    <h3 style="margin-top:0;">CascadeFormer 2: Towards a Cost-Aligned Anomaly Detection Agent via Reinforcement Learning with Verifiable Rewards</h3>
+    Advisor: Dr. Alper Yilmaz<br> 
+    <a href="https://github.com/Yusen-Peng/CascadeFormer-AD-Agent" target="_blank">[Github]</a>
   </div>
 </div>
 
@@ -62,17 +72,6 @@ Ongoing Projects ⭐️
     <h3 style="margin-top:0;">SVD-π3: Efficient Visual Geometry Learning via Singular Value Decomposition</h3>
     Mentor: Haoxuan Wang; Advisor: Dr. Yan Yan<br> 
     <a href="https://github.com/Yusen-Peng/SVD-Pi3" target="_blank">[Github]</a>
-  </div>
-</div>
-
-<div style="display:flex;align-items:center;margin-bottom:30px;">
-  <img src="../images/AD-Agent.png" alt="SVD-Pi3" style="width:350px;height:150px;margin-right:20px;">
-  <div class="paper-info">
-    <h3 style="margin-top:0;">CascadeFormer-based Agentic Anomaly Detection for Surveillance Purpose</h3>
-    Advisor: Dr. Alper Yilmaz<br> 
-    <i>Ongoing Honors Undergraduate Thesis</i><br>
-    <i>Oral Defense in April 2026</i><br>
-    <a href="https://github.com/Yusen-Peng/CascadeFormer-AD-Agent" target="_blank">[Github]</a>
   </div>
 </div>
 
