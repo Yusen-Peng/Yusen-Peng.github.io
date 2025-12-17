@@ -94,12 +94,11 @@ Ongoing Projects ⭐️
 Awards 🏅
 ======
 
-* **Undergraduate Research Scholarship 2025**
+* **Honorable Mention, CRA Outstanding Undergraduate Researcher Award (2025)**
+  * by Computing Research Association (CRA)
+
+* **Undergraduate Research Scholarship 2025 @ OSU**
   * $2,200 scholarship awarded based on my Honors Thesis proposal @ OSU
-
-* **Department Nominee, CRA Outstanding Undergraduate Researcher Award (2025)**
-  * One of four students nominated by the Department of Computer Science and Engineering @ OSU
-
 
 Academic Service 📚
 ======
@@ -126,7 +125,7 @@ AI/ML Competitions 💡
 * **NASA Airport Throughput Prediction Challenge 2024** (Top 10 Finalist)
   * Ranked **9th** out of **51 teams** in the final [Leaderboard](https://bitgrit.net/competition/23)
 
-Teaching 🧑🏻‍🏫
+<!-- Teaching 🧑🏻‍🏫
 ======
 
 * Teaching Assistant for CSE 2331: **Data Structures and Algorithms** (Aug 2024 – Present)
@@ -149,4 +148,4 @@ Extra-curriculars 🔮
 ======
 
 * **Competitive Programming Club (CPC)** @ The Ohio State University
-  * Served as 23-24 **Problem Engineer** and 24-25 **Communication Director**
+  * Served as 23-24 **Problem Engineer** and 24-25 **Communication Director** -->
