@@ -22,10 +22,10 @@ repository               : "Yusen-Peng/Yusen-Peng.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpeg" # filename of avatar image placed in /images/, e.g. "500x500.png"
+  avatar           : "Yusen_Peng_headshot.png" # filename of avatar image placed in /images/, e.g. "500x500.png"
   name             : "Yusen Peng"
   pronouns         : #"he/him/his"  
-  bio              : "Undergraduate Student Researcher in VLMs, CV, NLP @ Ohio State"
+  bio              : "Undergraduate Student Researcher @ Ohio State 🌰"
   location         : "Columbus, Ohio, USA"
   employer         : "The Ohio State University"
   uri              : # URL
