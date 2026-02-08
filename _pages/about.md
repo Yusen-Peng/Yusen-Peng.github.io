@@ -9,7 +9,22 @@ redirect_from:
 
 I am Yusen Peng, a final year undergraduate Computer Science and Engineering (CSE) student at The Ohio State University (OSU), graduating in Spring 2026.
 
-<span style="color:red"><strong>I am actively seeking PhD position in Fall 2026 in vision-language models and multimodal learning</strong></span>.
+My research interest is primarily **multimodality** with a specific focus on **efficiency**. I like to tackle this problem from two orthogonal perspectives:
+- *data sparsity* - token pruning, token merging
+- *weight sparsity* - low-rank approximation (SVD), MoE
+
+Ongoing Projects ⭐️
+======
+
+<div style="display:flex;align-items:center;margin-bottom:30px;">
+  <img src="../images/DRIP.png" alt="DRIP" style="width:350px;height:170px;margin-right:20px;">
+  <div class="paper-info">
+    <h3 style="margin-top:0;">Dynamic Patch Pooling for Efficient Vision Transformers</h3>
+    <strong>Yusen Peng</strong>, Sachin Kumar<br>
+    <a href="https://github.com/Yusen-Peng/DRIP" target="_blank">[Github]</a>
+  </div>
+</div>
+
 
 Publications 🚀
 ======
@@ -28,14 +43,42 @@ Publications 🚀
 </div>
 
 <div style="display:flex;align-items:center;margin-bottom:30px;">
-  <img src="../images/CascadeFormer.png" alt="CascadeFormer" style="width:350px;height:140px;margin-right:20px;">
+  <img src="../images/CascadeFormer.png" alt="CascadeFormer" style="width:350px;height:160px;margin-right:20px;">
   <div class="paper-info">
     <h3 style="margin-top:0;">CascadeFormer: A Family of Two-stage Cascading Transformers for Skeleton-based Human Action Recognition</h3>
     <strong>Yusen Peng</strong>, Alper Yilmaz.<br>
-    <i>arXiv preprint 2025; under review</i><br>
+    <i>arXiv preprint 2025; under review at ICPR</i><br>
     <a href="https://arxiv.org/abs/2509.00692" target="_blank">[Arxiv]</a> | 
     <a href="https://github.com/Yusen-Peng/CascadeFormer" target="_blank">[Github]</a> |
     <a href="https://huggingface.co/YusenPeng/CascadeFormerCheckpoints" target="_blank">[HuggingFace]</a> 
+  </div>
+</div>
+
+
+<div style="display:flex;align-items:center;margin-bottom:30px;">
+  <img src="../images/pytskit-architecture.png" alt="SIGNAL" style="width:400px;height:180px;margin-right:20px;">
+  <div class="paper-info">
+    <h3 style="margin-top:0;">pytskit: A Comprehensive Time Series Toolkit</h3>
+    <!-- <strong>Yusen Peng</strong><br> -->
+    Fan Yang, <strong>Yusen Peng</strong>, Tomasz Frelek, Frank Li, Qiao Xiao, Mark Kikta, John Paparrizos<br>
+    <i>Under review at JMLR</i><br>
+    <!-- <a href="" target="_blank">[paper (coming soon)]</a> |  -->
+    [paper (coming soon)] | 
+    <a href="https://github.com/thedatumorg/pytskit" target="_blank">[Github]</a>
+
+  </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:30px;">
+  <img src="../images/SVD.png" alt="SVD-Pi3" style="width:350px;height:190px;margin-right:20px;">
+  <div class="paper-info">
+    <h3 style="margin-top:0;">Data-adaptive SVD for Efficient Visual Geometry Learning</h3>
+    <strong>Yusen Peng</strong>, Haoxuan Wang, Yan Yan<br> 
+    <i>preparing for ECCV 2026</i><br>
+
+    <!-- <a href="" target="_blank">[paper (coming soon)]</a> |  -->
+    [paper (coming soon)] | 
+    <a href="https://github.com/Yusen-Peng/SVD-Pi3" target="_blank">[Github]</a>
   </div>
 </div>
 
@@ -49,46 +92,22 @@ Publications 🚀
   </div>
 </div>
 
-<div style="display:flex;align-items:center;margin-bottom:30px;">
-  <img src="../images/SIGNAL_architecture.png" alt="SIGNAL" style="width:330px;height:180px;margin-right:20px;">
-  <div class="paper-info">
-    <h3 style="margin-top:0;">SIGNAL: A Comprehensive Time Series Library</h3>
-    <!-- <strong>Yusen Peng</strong><br> -->
-    Advisor: Dr. John Paparrizos<br>
-    <i>Under preparation for JMLR</i><br>
-    <!-- <a href="https://docs.google.com/document/d/1xQ40GUl8wWLM5I9q8T6M7Y-kDxelpi6-lIUt2vzz3KQ/edit?usp=sharing" target="_blank">[Paper]</a> -->
-  </div>
-</div>
 
-Ongoing Projects ⭐️
+Undergraduate Thesis ✍️
 ======
 
 <div style="display:flex;align-items:center;margin-bottom:30px;">
-  <img src="../images/DRIP.png" alt="DRIP" style="width:350px;height:170px;margin-right:20px;">
+  <img src="../images/CascadeFormer2.png" alt="SVD-Pi3" style="width:450px;height:170px;margin-right:20px;">
   <div class="paper-info">
-    <h3 style="margin-top:0;">Dynamic Patch Pooling for Efficient Vision Transformers</h3>
-    Advisor: Dr. Sachin Kumar<br>
-    <a href="https://github.com/Yusen-Peng/DRIP" target="_blank">[Github]</a>
+    <h3 style="margin-top:0;">From Representation to Policy: Cascade Finetuning and Verifiable Reward Alignment for Human Action Understanding</h3>
+    <strong>Yusen Peng</strong>, Alper Yilmaz<br> 
+    <i>Undergraduate Thesis</i><br>
+    <!-- <a href="" target="_blank">[paper (coming soon)]</a> |  -->
+    [paper (coming after defense)]
+    <!-- <a href="https://github.com/Yusen-Peng/CascadeFormer2" target="_blank">[Github]</a> -->
   </div>
 </div>
 
-<div style="display:flex;align-items:center;margin-bottom:30px;">
-  <img src="../images/CascadeFormer2.png" alt="SVD-Pi3" style="width:350px;height:150px;margin-right:20px;">
-  <div class="paper-info">
-    <h3 style="margin-top:0;">CascadeFormer 2: Towards a Cost-Aligned Anomaly Detection Agent via Reinforcement Learning with Verifiable Rewards</h3>
-    Advisor: Dr. Alper Yilmaz<br> 
-    <a href="https://github.com/Yusen-Peng/CascadeFormer-AD-Agent" target="_blank">[Github]</a>
-  </div>
-</div>
-
-<div style="display:flex;align-items:center;margin-bottom:30px;">
-  <img src="../images/SVD-Pi3.png" alt="SVD-Pi3" style="width:370px;height:170px;margin-right:20px;">
-  <div class="paper-info">
-    <h3 style="margin-top:0;">SVD-π3: Efficient Visual Geometry Learning via Singular Value Decomposition</h3>
-    Mentor: Haoxuan Wang; Advisor: Dr. Yan Yan<br> 
-    <a href="https://github.com/Yusen-Peng/SVD-Pi3" target="_blank">[Github]</a>
-  </div>
-</div>
 
 
 Awards 🏅
@@ -106,46 +125,3 @@ Academic Service 📚
 * **Conference Reviewer** @ NeurIPS
   * reviewed 3 papers at [NeurIPS 2025 Mechanistic Interpretability Workshop](https://mechinterpworkshop.com)
 
-
-Campus Poster Presentations 👨‍👨‍👦‍👦
-======
-
-* **SIGNAL: A Comprehensive Time Series Analysis Library**
-  * The DATUM Lab \| Advisor: Dr. John Paparrizos 
-  * [Poster](https://drive.google.com/file/d/1WV9PNwhTVWQE94SSKilK8oGx4dYKENP-/view?usp=sharing) presented at the CSE Annual Research Expo 2025 at The Ohio State University
-
-* **A Comparison of CSV, HDF5, Zarr, and netCDF4 in Performing Common I/O Operations**
-  * Advisor: Dr. Suren Byna; [GitHub](https://github.com/Yusen-Peng/File-IO-Benchmark)
-  * [Poster](https://drive.google.com/file/d/1Q3U9HihDamZp9HKgECZaG2mGMs0BFeRe/view) presented at the CSE Annual Research Expo 2024 at The Ohio State University
-
-
-AI/ML Competitions 💡
-======
-
-* **NASA Airport Throughput Prediction Challenge 2024** (Top 10 Finalist)
-  * Ranked **9th** out of **51 teams** in the final [Leaderboard](https://bitgrit.net/competition/23)
-
-<!-- Teaching 🧑🏻‍🏫
-======
-
-* Teaching Assistant for CSE 2331: **Data Structures and Algorithms** (Aug 2024 – Present)
-
-* Teaching Assistant for CSE 2221: **Software Components** (Aug 2023 – Dec 2023)
-
-
-Internships 👨‍💻
-======
-
-* Software Engineer Intern @ **Thaddeus Resource Center** (May 2025 – Present)
-
-* Software Engineer Intern @ **Y STEM and Chess Inc** (Jan 2025 – Apr 2025)
-
-* Website Frontend Intern @ **National STEM Honor Society** (May 2024 – Sept 2024)
-
-* Mobile Frontend Intern @ **Resilience, Inc** (Dec 2023 – Aug 2024)
-
-Extra-curriculars 🔮
-======
-
-* **Competitive Programming Club (CPC)** @ The Ohio State University
-  * Served as 23-24 **Problem Engineer** and 24-25 **Communication Director** -->
