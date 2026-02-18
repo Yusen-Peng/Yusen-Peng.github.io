@@ -7,11 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-I am Yusen Peng, a final year undergraduate Computer Science and Engineering (CSE) student at The Ohio State University (OSU), graduating in Spring 2026.
-
-My research interest is primarily **multimodality** with a specific focus on **efficiency**. I like to tackle this problem from two orthogonal perspectives:
+I am Yusen Peng, a final year undergraduate Computer Science and Engineering (CSE) student at The Ohio State University (OSU), graduating in Spring 2026. My research interest is primarily **multimodality** with a specific focus on **efficiency**. I like to tackle this problem from two orthogonal perspectives:
 - *data sparsity* - token pruning, token merging
 - *weight sparsity* - low-rank approximation (SVD), MoE
+
+News 📰
+======
+
+- **[December 2025]** received Honorable Mention for CRA Outstanding Undergraduate Researcher Award!
+- **[October 2025]** CE-Bench is accepted at EMNLP blackbox workshop 2025!
+- **[September 2025]** I will be a reviewer at NeurIPS Mechinterp Workshop 2025!
+- **[August 2025]** new preprint CascadeFormer on skeleton-based action recognition.
+- **[June 2025]** received $2,200 Undergraduate Research Scholarship at OSU!
 
 Ongoing Projects ⭐️
 ======
@@ -108,16 +115,6 @@ Undergraduate Thesis ✍️
   </div>
 </div>
 
-
-
-Awards 🏅
-======
-
-* **Honorable Mention, CRA Outstanding Undergraduate Researcher Award (2025)**
-  * by Computing Research Association (CRA)
-
-* **Undergraduate Research Scholarship 2025 @ OSU**
-  * $2,200 scholarship awarded based on my Honors Thesis proposal @ OSU
 
 Academic Service 📚
 ======
