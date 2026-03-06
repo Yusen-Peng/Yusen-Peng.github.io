@@ -12,7 +12,7 @@ site_theme               : minima
 title                    : "Yusen Peng"
 title_separator          : "-"
 name                     : "Yusen Peng"
-description              : "VLMs, CV, NLP @ Ohio State 🌰"
+description              : "Multimodal Efficiency @ Ohio State 🌰"
 url                      : "https://Yusen-Peng.github.io"
 baseurl                  : ""
 repository               : "Yusen-Peng/Yusen-Peng.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "Yusen_Peng_headshot.png" # filename of avatar image placed in /images/, e.g. "500x500.png"
   name             : "Yusen Peng"
   pronouns         : #"he/him/his"  
-  bio              : "Undergraduate Student Researcher @ Ohio State 🌰"
+  bio              : "Incoming PhD student @ OSU🌰"
   location         : "Columbus, Ohio, USA"
   employer         : "The Ohio State University"
   uri              : # URL
