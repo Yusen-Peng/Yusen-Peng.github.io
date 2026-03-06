@@ -7,20 +7,21 @@ redirect_from:
   - /about.html
 ---
 
-I am Yusen Peng, a final year undergraduate Computer Science and Engineering (CSE) student at The Ohio State University (OSU), graduating in Spring 2026. My research interest is primarily **multimodality** with a specific focus on **efficiency**. I like to tackle this problem from two orthogonal perspectives:
+I am Yusen Peng, an incoming CSE PhD student at The Ohio State University (OSU), starting in Fall 2026. I am fortunate to be advised by [Dr. Sachin Kumar](https://sites.google.com/view/sachinkumar). Previously, I earned my B.S. in Computer Science and Engineering from The Ohio State University with Honor Research Distinction, supervised by [Dr. Alper Yilmaz](https://u.osu.edu/pcvlab/).
+
+
+My current research interest is primarily **multimodality** with a specific focus on **efficiency**. I like to tackle this problem from two orthogonal perspectives:
 - *data sparsity* - token pruning, token merging
 - *weight sparsity* - low-rank approximation (SVD), MoE
 
-News 📰
+News
 ======
 
 - **[December 2025]** received Honorable Mention for CRA Outstanding Undergraduate Researcher Award!
 - **[October 2025]** CE-Bench is accepted at EMNLP blackbox workshop 2025!
-- **[September 2025]** I will be a reviewer at NeurIPS Mechinterp Workshop 2025!
-- **[August 2025]** new preprint CascadeFormer on skeleton-based action recognition.
 - **[June 2025]** received $2,200 Undergraduate Research Scholarship at OSU!
 
-Ongoing Projects ⭐️
+Ongoing Projects
 ======
 
 <div style="display:flex;align-items:center;margin-bottom:30px;">
@@ -33,7 +34,7 @@ Ongoing Projects ⭐️
 </div>
 
 
-Publications 🚀
+Publications
 ======
 
 <div style="display:flex;align-items:center;margin-bottom:30px;">
@@ -49,15 +50,30 @@ Publications 🚀
   </div>
 </div>
 
+
+Papers under review
+======
+
 <div style="display:flex;align-items:center;margin-bottom:30px;">
   <img src="../images/CascadeFormer.png" alt="CascadeFormer" style="width:350px;height:160px;margin-right:20px;">
   <div class="paper-info">
     <h3 style="margin-top:0;">CascadeFormer: A Family of Two-stage Cascading Transformers for Skeleton-based Human Action Recognition</h3>
     <strong>Yusen Peng</strong>, Alper Yilmaz.<br>
-    <i>arXiv preprint 2025; under review at ICPR</i><br>
+    <i>arXiv preprint 2025; under review at ICPR 2026</i><br>
     <a href="https://arxiv.org/abs/2509.00692" target="_blank">[Arxiv]</a> | 
     <a href="https://github.com/Yusen-Peng/CascadeFormer" target="_blank">[Github]</a> |
     <a href="https://huggingface.co/YusenPeng/CascadeFormerCheckpoints" target="_blank">[HuggingFace]</a> 
+  </div>
+</div>
+
+<div style="display:flex;align-items:center;margin-bottom:30px;">
+  <img src="../images/SVD.png" alt="SVD-Pi3" style="width:350px;height:190px;margin-right:20px;">
+  <div class="paper-info">
+    <h3 style="margin-top:0;">SVD^3: Singular Value Decomposition for Visual Geometry Model Compression</h3>
+    <strong>Yusen Peng</strong>, Haoxuan Wang, Jiachen Tao, Yan Yan<br> 
+    <i>under review at ECCV 2026</i><br>
+    <a href="https://drive.google.com/file/d/1ZrJ1rCpFa5PiPqSydEarUjsiudta-LEU/view?usp=sharing" target="_blank">[paper]</a> |
+    <a href="https://github.com/Yusen-Peng/SVD3" target="_blank">[Github]</a>
   </div>
 </div>
 
@@ -76,18 +92,6 @@ Publications 🚀
   </div>
 </div>
 
-<div style="display:flex;align-items:center;margin-bottom:30px;">
-  <img src="../images/SVD.png" alt="SVD-Pi3" style="width:350px;height:190px;margin-right:20px;">
-  <div class="paper-info">
-    <h3 style="margin-top:0;">Data-adaptive SVD for Efficient Visual Geometry Learning</h3>
-    <strong>Yusen Peng</strong>, Haoxuan Wang, Yan Yan<br> 
-    <i>preparing for ECCV 2026</i><br>
-
-    <!-- <a href="" target="_blank">[paper (coming soon)]</a> |  -->
-    [paper (coming soon)] | 
-    <a href="https://github.com/Yusen-Peng/SVD-Pi3" target="_blank">[Github]</a>
-  </div>
-</div>
 
 <div style="display:flex;align-items:center;margin-bottom:30px;">
   <img src="../images/public_housing.png" alt="public_housing" style="width:300px;height:120px;margin-right:20px;">
@@ -100,7 +104,7 @@ Publications 🚀
 </div>
 
 
-Undergraduate Thesis ✍️
+Undergraduate Thesis
 ======
 
 <div style="display:flex;align-items:center;margin-bottom:30px;">
@@ -116,7 +120,7 @@ Undergraduate Thesis ✍️
 </div>
 
 
-Academic Service 📚
+Academic Service
 ======
 
 * **Conference Reviewer** @ NeurIPS
